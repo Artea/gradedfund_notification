@@ -1,0 +1,18 @@
+{
+    "content_scripts": [
+        {                                                                                                                                      
+            "matches" : ["*://www.pushbullet.com/*"],
+            "js" : ["js/jquery.js", "js/content.js"]
+        }   
+    ],  
+    "permissions": [
+    ],  
+    "web_accessible_resources": [
+        "images/*",
+        "js/*"
+    ],
+    "description": "Graded Fund",
+    "version" : "0.0.0",
+    "name" : "Graded fund",
+    "manifest_version" : 2
+}
